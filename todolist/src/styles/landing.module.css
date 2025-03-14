@@ -1,0 +1,43 @@
+.landingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
+
+.header span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+}
+
+.header button:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+main {
+    width: 80%;
+    margin-top: 20px;
+}

@@ -1,0 +1,69 @@
+/* Home Container */
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* ✅ Header Section */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Push elements to opposite sides */
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* ✅ Left Side - App Title */
+.todoListTitle {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ✅ Right Side - Navigation Buttons */
+.navButtons {
+    display: flex;
+    gap: 15px;
+}
+
+.navButtons button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+}
+
+.navButtons button:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* ✅ Ensure content is visible below fixed header */
+.mainContent {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.mainContent h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.mainContent p {
+    font-size: 18px;
+    color: #555;
+}
