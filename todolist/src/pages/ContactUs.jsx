@@ -10,9 +10,9 @@ const ContactUs = () => {
                 </p>
 
                 <div className="text-left text-gray-400 space-y-3">
-                    <p><span className="font-semibold text-blue-300">📍 Address:</span> 123, Productivity Street, Workland</p>
-                    <p><span className="font-semibold text-blue-300">📞 Phone:</span> +123 456 7890</p>
-                    <p><span className="font-semibold text-blue-300">✉️ Email:</span> support@todolist.com</p>
+                    <p><span className="font-semibold text-blue-300">📍 Address:</span> Gayatri Vidya Parishad College Of Engineering</p>
+                    <p><span className="font-semibold text-blue-300">📞 Phone:</span> 322103311023</p>
+                    <p><span className="font-semibold text-blue-300">✉️ Email:</span> 322103311023@todolist.com</p>
                 </div>
 
                 <div className="mt-6">
